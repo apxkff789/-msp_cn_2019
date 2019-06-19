@@ -2,640 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae40173-625e-487b-ba0b-d8b71209bd82" name="Default Changelist" comment="a">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8c253799-b720-4611-a701-1569dcbe93f6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mps.cn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/controller/Api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/controller/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/controller/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/model/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/article/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/article/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/article/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/common/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/common/title.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/user/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/user/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/view/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/command.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/common.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/common/model/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/http/middleware/Auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/http/middleware/Guests.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/view/common/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/view/common/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/view/common/lmLeftNav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/view/common/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/view/index/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/view/index/article_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/view/index/gdjw.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/view/index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/provider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/trace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mps_20190311_130855.sql.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/css/paper-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/css/paper-dashboard.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/css/paper-dashboard.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/demo/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/demo/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/fonts/nucleo-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/fonts/nucleo-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/fonts/nucleo-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/fonts/nucleo-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/AU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/BR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/DE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/GB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/RO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/US.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/agenda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/ana-bernardo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/anders-jilden.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/angelo-pantazis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/ben-white.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/bruno-abatti.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/chris-karidisz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/clark-street-mercantile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/damir-bosnjak.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/daniel-olahh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/daniel-olahs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/david-marcu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/fabio-mangione.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/federico-beccari.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/fog-low.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/forest-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/galen-crout.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/gerrit-vermeulen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/gukhwa-jang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/gukhwa-jangs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/ilya-yakover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/jan-sendereks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/jeff-sheldon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/jeremy-yap.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/john-towner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/joshua-earles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/joshua-earlesz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/joshua-earlez.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/joshua-stannard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/leonard-cotte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/luke-chesser.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/markus-spiske-187777.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/martin-knize.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/miguel-perales.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/mika-matin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/neill-kumar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/noah-rosenfield.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/opt_gsdk_new_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/opt_lbd_pro_new_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/opt_pk_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/patrick-tomasso.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/pavel-kosov.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/pedro-lastra.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/pk-pro-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/por7o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/rawpixel-com-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/rawpixel-com.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/rawpixel-comm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/rawpixel-coms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/rodrigo-ardilha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/roger-keller.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/sebastien-gabrieles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/soroush-karimi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/stephanie-krist.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/takahiro-sakamoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/the-how-photographer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/uriel-soberanes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/val-vesa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/vincent-versluis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/bg/zachary-staines.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/default-avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/emilyz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/evernote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/face-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/face-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/ayo-ogunseinde-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/ayo-ogunseinde-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/clem-onojeghuo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/clem-onojeghuo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/clem-onojeghuo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/clem-onojeghuo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/erik-lucatero-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/erik-lucatero-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/joe-gardner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/joe-gardner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/kaci-baum-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/faces/kaci-baum-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/AD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/AE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/AG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/AM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/AR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/AT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/AU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/BE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/BF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/BO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/BR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/CZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/DE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/DJ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/DK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/DZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/EE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/EG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/ES.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/FI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/FR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/GA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/GB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/GM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/GT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/HN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/HT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/HU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/ID.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/IE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/IL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/IN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/IQ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/IR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/IT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/JM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/JO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/JP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/KG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/KN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/KP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/KR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/KW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/KZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/LA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/LB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/LC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/LS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/LU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/LV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/MG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/MK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/ML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/MM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/MT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/MX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/NA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/NE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/NG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/NI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/NL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/NO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/OM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/PA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/PE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/PG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/PK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/PL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/PT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/PY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/QA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/RO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/RU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/RW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/SA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/SE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/SG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/SL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/SN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/SO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/SV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/TD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/TJ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/TL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/TR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/TZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/UA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/US.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/VE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/VN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/flags/YE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/image_placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/james.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/logo-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/mike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/now-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/img/stylus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/core/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/core/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/core/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/paper-dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/paper-dashboard.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/paper-dashboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/bootstrap-notify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/bootstrap-selectpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/bootstrap-tagsinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/chartjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/jasny-bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/jquery-jvectormap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/jquery.bootstrap-wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/nouislider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/perfect-scrollbar.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/js/plugins/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_animated-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_checkboxes-radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_example-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_fixed-plugin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_footers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_info-areas.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_media-queries.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_misc-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_nucleo-outline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_page-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_pills.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_popups.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_sections.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_sidebar-and-main-panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_social-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_timeline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-chart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-collapse.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-contributions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-info-area.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-lock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-plain.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-signup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-stats-mini.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-stats.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-subcategories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-tasks.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/cards/_card-user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_chartist.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_page-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_social-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_tags.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_transparency.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_vendor-prefixes-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/mixins/_wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-animate-bootstrap-notify.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-bootstrap-select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-bootstrap-switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-bootstrap-table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-card-wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-datatables.net.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-datetimepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-fullcalendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-jasny-fileupload.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-jquery.jvectormap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-nouislider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-perfect-scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-sweetalert2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/scss/paper-dashboard/plugins/_plugin-tagsinput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/017acbcbdeb47e0adf678daee9311d1c.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/21aed74ef0ac20fc5412f280e68e25e2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/3262c9c1e08d125a19fdf7ae1690841f.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/56a6272874ab9205cec15e94d4a76778.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/7e4c87c903eb5b330ba23c1b0f0f913f.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/a51fa9511a8b5896f521229938d369e4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/b39291e632d840c7c656778ddb9327a0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/bf801caa59dab75f60869844907728cf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/c8f2adac630dc005c732244b9355dfb1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/e8aff49491972899d5af1c42cc23ac1b.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/ec789ec38d3d8cb7c8fda7df959c8b34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190307/fc5ecb4da2bb093656c640fa753bad4b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/1f25e17851751025a831c97198a299cd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/24195a530c31de14bc80590fac55cb37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/25cbb462c272de01cbcd705fe96d2974.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/359fddef6330458999732249eb7c498f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/4597eb7aba827823834eb4b4aad04ef2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/6694503f5e2f8a66999fd8c87bd8aca5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/8ca278a72794be64ae88def86cea34c3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/99e2cdb8413e4d821e4a91d1ad01cb0b.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/ad0b0543f52f22912c2e813cbe41deec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/aef31ebb4a69f388e584a3c05e068381.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190308/f6bb570677e6df4f15a233c984275463.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190309/72c5c43b517590da42344dd668d8b33d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/20190311/d27495dd69972953d742935aaa7ee809.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/b2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/b3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/b4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/b5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/route/route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/think" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/convention.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/lang/zh-cn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Build.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Container.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Cookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Debug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Env.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Facade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Hook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Loader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Paginator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Url.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Validate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/Driver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Lite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcached.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Redis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Sqlite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Wincache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Xcache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Ini.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Xml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Command.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Input.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Output.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/bin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/bin/hiddeninput.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Build.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Clear.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Help.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Lists.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Make.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/RouteList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/RunServer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Version.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Command.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Validate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/command.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.api.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.plain.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/middleware.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/model.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/validate.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Argument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Definition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Option.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Ask.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Descriptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Formatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Question.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/descriptor/Console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Buffer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Nothing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Stack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Style.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Choice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Confirmation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Builder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Expression.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Query.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Where.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Mysql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Pgsql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlsrv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Mysql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Pgsql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlsrv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/pgsql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/BindParamException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/DataNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/ModelNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/debug/Console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/debug/Html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ClassNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/DbException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ErrorException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/Handle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpResponseException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/PDOException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/RouteNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/TemplateNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ThrowableError.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ValidateException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Build.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Cookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Debug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Env.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Hook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Url.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/Validate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/facade/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Socket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Pivot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Relation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/concern/Attribute.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/concern/Conversion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/concern/ModelEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/concern/RelationShip.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/concern/SoftDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/concern/TimeStamp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsTo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsToMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasManyThrough.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasOne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphOne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphTo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/OneToOne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/paginator/driver/Bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/Builder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/Utils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Faild.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Failed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Timeout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Pipes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Unix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Windows.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Download.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Jsonp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Jump.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Redirect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Xml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/AliasRule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/Dispatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/Domain.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/Resource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/Rule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/RuleGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/RuleItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/RuleName.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/dispatch/Callback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/dispatch/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/dispatch/Module.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/dispatch/Redirect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/dispatch/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/dispatch/Url.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/route/dispatch/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcached.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Redis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/template/TagLib.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/template/driver/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/template/taglib/Cx.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/validate/ValidateRule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Think.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/library/traits/controller/Jump.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/tpl/default_index.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/tpl/dispatch_jump.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/tpl/page_trace.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp/tpl/think_exception.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -693,9 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.git/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -815,6 +204,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mps_cn_2019_03_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mps_cn_2019_03_11" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -841,17 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mps_cn_2019_03_11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mps_cn_2019_03_11" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -867,11 +256,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mps_cn_2019_03_11" />
       <recent name="C:\wwwroot\mps.cn\application\admin\view\article" />
       <recent name="C:\wwwroot\mps.cn\application\index\view\common" />
       <recent name="C:\wwwroot\mps.cn\application\admin\view\user" />
       <recent name="C:\wwwroot\mps.cn\public\admin" />
-      <recent name="C:\wwwroot\mps.cn\application\index\view\index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -900,19 +289,21 @@
       <workItem from="1551931509577" duration="34446000" />
       <workItem from="1560972259097" duration="286000" />
       <workItem from="1560972672646" duration="1008000" />
+      <workItem from="1560975174637" duration="671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51264000" />
+    <option name="totallyTimeSpent" value="51935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1476" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5010352" side_tool="true" weight="0.26111504" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49896482" visible="true" weight="0.26111504" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49896482" visible="true" weight="0.26534933" />
       <window_info id="Structure" order="2" sideWeight="0.5010352" side_tool="true" weight="0.26111504" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4992948" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4992948" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50070524" side_tool="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32916668" />
@@ -983,19 +374,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
     <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/common/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1466,21 +864,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1489,7 +873,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
