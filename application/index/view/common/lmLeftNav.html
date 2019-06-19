@@ -1,0 +1,38 @@
+{if $Request.action == 'gdjw'}
+<div class="lmLeftNav">
+    <dl>
+        <dd>
+            <a href="#">公安要闻</a>
+            <a href="#">图片新闻</a>
+            <a href="#">工作动态</a>
+            <a href="#">各地警务</a>
+            <a href="#">通知公告</a>
+            <a href="#">政策法规</a>
+            <a href="#">人事信息</a>
+            <a href="{:url('wstj',['class'=>'1'])}">网上通缉</a>
+        </dd>
+    </dl>
+</div>
+{/if}
+{if $Request.action == 'articlelist'}
+<div class="lmLeftNav">
+    <dl>
+        <dd>
+            <a href="{:url('wstj',['class'=>'1'])}">A级通缉令</a>
+            <a href="{:url('wstj',['class'=>'2'])}">B级通缉令</a>
+            <a href="{:url('wstj',['class'=>'3'])}">专案通缉令</a>
+        </dd>
+    </dl>
+</div>
+{/if}
+{if $Request.action == 'article'}
+<div class="lmLeftNav">
+    <dl>
+        <dd>
+            <a href="{:url('wstj',['class'=>'1'])}">A级通缉令</a>
+            <a href="{:url('wstj',['class'=>'2'])}">B级通缉令</a>
+            <a href="{:url('wstj',['class'=>'3'])}">专案通缉令</a>
+        </dd>
+    </dl>
+</div>
+{/if}

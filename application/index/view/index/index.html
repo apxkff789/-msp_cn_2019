@@ -1,0 +1,1382 @@
+{extend name="common/layout" /}
+
+{block name="main"}
+
+<!-- conA begin-->
+<div class="conA">
+    <div class="ca_hd left">
+
+        <!--start component 图片列表(幻灯片)-->
+        <div class="ca_hd_con" style="height:285px; overflow:hidden">
+            <a target=_self href="javascript:goUrl()">
+                <script type=text/javascript>
+                    var pics = ""
+                    var links = ""
+                    var texts = ""
+                    pics = "/static/images/pic_6422429.jpg";
+                    texts = "赵克志参加河北代表团审议";
+                    links = "#";
+                    pics = pics + "|/static/images/pic_6421719.jpg";
+                    texts = texts + "|郭声琨参加云南代表团审议";
+                    links = links + "|#";
+                    pics = pics + "|/static/images/pic_6417700.jpg";
+                    texts = texts + "|赵克志对公安国际合作工作提出要求";
+                    links = links + "|#";
+                    pics = pics + "|/static/images/pic_6414674.jpg";
+                    texts = texts + "|赵克志在北京河北检查环京“护城河”安保工...";
+                    links = links + "|#";
+                    pics = pics + "|/static/images/pic_6410547.jpg";
+                    texts = texts + "|赵克志在天津检查全国两会安保工作并调研时...";
+                    links = links + "|#";
+                </script>
+                <script type=text/javascript>
+                    var focus_width = 398;
+                    var focus_height = 265;
+                    var text_height = 20;
+                    var texta_height = 40;
+                    var swf_height = focus_height + text_height;
+                    var swfa_height = focus_height + texta_height;
+
+                    document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="' + focus_width + '" height="' + swf_height + '">');
+                    document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="http://www.mps.gov.cn/template/3502845/3503070.swf"><param name="quality" value="high"><param name="bgcolor" value="#FFFFFF">');
+                    document.write('<param name="menu" value="false"><param name=wmode value="transparent">');
+                    document.write('<param name="FlashVars" value="pics=' + pics + '&links=' + links + '&texts=' + texts + '&borderwidth=' + focus_width + '&borderheight=' + focus_height + '&textheight=' + text_height + '">');
+                    document.write('<embed src="http://www.mps.gov.cn/template/3502845/3503070.swf" wmode="opaque" FlashVars="pics=' + pics + '&links=' + links + '&texts=' + texts + '&borderwidth=' + focus_width + '&borderheight=' + focus_height + '&textheight=' + texta_height + '" menu="false" bgcolor="#FFFFFF" quality="high" width="' + focus_width + '" height="' + swfa_height + '" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+                    document.write('</object>');
+                </script>
+            </a>
+        </div>
+        <!--end component 图片列表(幻灯片)-->
+
+    </div>
+
+    <!--start component 图片列表(首页头条)-->
+    <div class="ca_cen left">
+        <dl>
+            <dt style="text-align:center"><a href=#><img src="/static/images/pic_6424079.jpg"
+                                                         width="339" height="82" border=0></a>
+            </dt>
+
+
+            <!--end component 图片列表(首页头条)-->
+
+            <!--start component 新闻列表(政务要闻)-->
+            <dd><em>·</em><a href=# title="赵克志参加西藏代表团审议">赵克志参加西藏代表团审议</a><span
+                    style="padding-top:8px">03-05</span></dd>
+            <dd><em>·</em><a href=# title="赵克志对公安国际合作工作提出要求">赵克志对公安国际合作工作提出要求</a><span
+                    style="padding-top:8px">03-02</span></dd>
+            <dd><em>·</em><a href=# title="全国公安信访工作视频会议召开">全国公安信访工作视频会议召开</a><span
+                    style="padding-top:8px">03-01</span></dd>
+            <dd><em>·</em><a href=# title="公安机关重拳打击涉非洲猪瘟相关犯罪">公安机关重拳打击涉非洲猪瘟相关犯罪</a><span
+                    style="padding-top:8px">03-01</span></dd>
+            <dd><em>·</em><a href=# title="直播：公安部新闻发布会 通报公安机关严厉打击涉非洲猪瘟相关犯罪工作情况">直播：公安部新闻发布会
+                通报公安机关严厉...</a><span style="padding-top:8px">03-01</span></dd>
+            <dd><em>·</em><a href=# title="公安部承办2018年全国两会建议提案全部按时办结">公安部承办2018年全国两会建议提案全部...</a><span
+                    style="padding-top:8px">03-01</span></dd>
+            <dd><em>·</em><a href=# title="全国学校安全工作电视电话会议在京召开">全国学校安全工作电视电话会议在京召开</a><span
+                    style="padding-top:8px">02-28</span></dd>
+            <dd><em>·</em><a href=# title="赵克志在北京河北检查环京“护城河”安保工作时强调">赵克志在北京河北检查环京“护城河”安保工...</a><span
+                    style="padding-top:8px">02-27</span></dd>
+        </dl>
+        <div class="ca_cen_more" style="padding-top:5px"><a href=#>更多&gt;&gt;</a></div>
+    </div>
+
+    <!--end component 新闻列表(政务要闻)-->
+
+
+    <!--start component 图片列表(专题专栏切换)-->
+    <style>
+        .new_dl_style dl dd {
+            padding-bottom: 5px;
+        }
+    </style>
+    <div style="width:210px; float:right;">
+        <div class="erRCon4">
+            <dl>
+                <dt id="demo1">
+                    <a href="#" class="ls2A1" style="float:left;">专题专栏</a>
+                    <a href="#" class="ls2A2" style="float:right;">国务院信息</a>
+                    <div class="clear"></div>
+                </dt>
+            </dl>
+        </div>
+
+        <div class="erRCon3">
+            <div class="border_Dblue new_dl_style" style="display:block;border-top:0;"
+                 id="con1_0">
+                <dl style="padding-left:10px;">
+                    <dd><a href="#"><img
+                            src="/static/images/pic_5983009.jpg"
+                            border="0" height="37" width="185"></a></dd>
+                    <dd><a href="#"><img
+                            src="/static/images/pic_5511901.jpg"
+                            border="0" height="37" width="185"></a></dd>
+                    <dd><a href="#"><a href="#"><img
+                            src="/static/images/pic_6283622.jpg"
+                            border="0" height="37" width="185"></a></a></dd>
+                    <dd><a href="#"><img
+                            src="/static/images/pic_6312548.jpg"
+                            border="0" height="37" width="185"></a></dd>
+                    <dd><a href="#"><img
+                            src="/static/images/pic_6392410.jpg"
+                            border="0" height="37" width="185"></a></dd>
+                    <dd style="padding:0"><a href="#"><img
+                            src="/static/images/pic_6391823.jpg"
+                            border="0" height="37" width="185"></a></dd>
+                </dl>
+            </div>
+
+            <div class="border_Dblue" style="display:none; border-top:0; height:267px;"
+                 id="con1_1">
+                <ul>
+                    <li>
+                        <iframe src="http://www.gov.cn/pushinfo/v150203/base_12px_nopubdate.htm"
+                                scrolling="no" frameborder="0" width="196"
+                                height="244"></iframe>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function __hover(id, oDiv) {
+            var _tag = 'a';
+            var _link = 'ls2A2';
+            var _hover = 'ls2A1';
+            //
+            var obj = document.getElementById(id);
+            var oArr = obj.getElementsByTagName(_tag);
+            for (var i = 0; i < oArr.length; i++) {
+                oArr[i].index = i;
+                oArr[i].onmouseover = function () {
+                    for (var j = 0; j < oArr.length; j++) {
+                        document.getElementById(oDiv + j).style.display = 'none';
+                        oArr[j].className = _link;
+                    }
+                    oArr[this.index].className = _hover;
+                    document.getElementById(oDiv + this.index).style.display = 'block';
+                }
+            }
+
+        }
+
+        __hover('demo1', 'con1_');
+    </script>
+    <!--end component 图片列表(专题专栏切换)-->
+
+
+    <div class="clear"></div>
+</div>
+<!-- conA end-->
+
+<div class="h_wu"></div>
+
+<!-- conB begin-->
+<div class="conB">
+    <div class="cb_left left">
+        <div class="cb_left_conA border_Dblue h0">
+            <!--begin-->
+
+            <!--start component HTML组件(领导信息)-->
+            <style>
+                .erCon2 dl {
+                    margin: 10px 0 0 10px;
+                }
+
+                .erCon2 dl dd {
+                    float: left;
+                    line-height: 24px;
+                }
+
+                .w32 {
+                    width: 27.5%
+                }
+            </style>
+
+            <div class="erlTitle"><b>领导信息</b></div>
+            <div class="erCon erCon2" style="border-top:0; _height:0;">
+                <dl style="margin-left:1px; width:168px">
+                    <dd class="w32"><a href=>赵克志</a></dd>
+                    <dd>国务委员，<br/>党委书记、部长</dd>
+                    <dd class="w32"><a href=>王小洪</a></dd>
+                    <dd>党委副书记、分管<br/>日常工作的副部长</dd>
+                    <dd class="w32"><a href=>邓卫平</a></dd>
+                    <dd>党委委员，中央纪委<br/>国家监委驻公安部<br/>纪检监察组组长</dd>
+                    <dd class="w32"><a href="#">杜航伟</a></dd>
+                    <dd>党委委员、副部长</dd>
+                    <dd class="w32"><a href="#">孟庆丰</a></dd>
+                    <dd>党委委员、副部长</dd>
+                    <dd class="w32"><a href="#">许甘露</a></dd>
+                    <dd>党委委员、副部长，<br/>国家移民管理局<br/>(中华人民共和国<br/>出入境管理局)党组<br/>书记、局长</dd>
+                    <dd class="w32"><a href="#">刘跃进</a></dd>
+                    <dd>党委委员、反恐专员</dd>
+                    <dd class="w32"><a href="#">孙力军</a></dd>
+                    <dd>党委委员、副部长</dd>
+                    <dd class="w32"><a href="#">刘　钊</a></dd>
+                    <dd>党委委员、政治部主任</dd>
+                    <dd class="w32"><a href="#">林　锐</a></dd>
+                    <dd>党委委员、副部长</dd>
+                    <dd class="w32"><a href="#">聂福如</a></dd>
+                    <dd>党委委员、部长助理</dd>
+                </dl>
+                <div class="clear"></div>
+            </div>
+            <!--end component HTML组件(领导信息)-->
+
+            <!--end-->
+
+            <!--begin-->
+
+            <!--start component HTML组件(new)-->
+            <style>
+                .erCon2 dl {
+                    margin: 10px 0 0 10px;
+                }
+
+                .erCon2 dl dd {
+                    float: left;
+                    line-height: 24px;
+                }
+            </style>
+
+
+            <script type="text/javascript">
+                /*
+                    使用onchange="jumpMenu()" 触发jumpMenu()方法
+                */
+                function jumpMenu(e) {
+                    if (e.value == "#") {
+                        window.location.href = e.value;//使用js执行跳转（window.location.href）
+                    } else {
+                        window.open(e.value);
+                    }
+                }
+            </script>
+
+
+            <div class="erlTitle"><b>相关链接</b></div>
+            <div class="tCenter zylj">
+                <ul>
+                    <li style="padding-left:4px;"><a href="#"><img
+                            src="/static/images/4907579.gif" border="0"
+                            height="55" width="139"/></a></li>
+                    <li style="padding-left:4px;"><a href="#"><img
+                            src="/static/images/4907582.gif" border="0"
+                            height="55" width="139"/></a></li>
+                    <li>
+                        <select name="select" id="select" onchange="jumpMenu(this)"
+                                this.selectedIndex=0 style="width:140px">
+                            <option value="#" selected="selected">国务院部门网站</option>
+                            <option value="http://www.fmprc.gov.cn/web/">外交部</option>
+                            <option value="http://www.mod.gov.cn/">国防部</option>
+                            <option value="http://www.ndrc.gov.cn">国家发展和改革委员会</option>
+                            <option value="http://www.moe.gov.cn">教育部</option>
+                            <option value="http://www.most.gov.cn">科学技术部</option>
+                            <option value="http://www.miit.gov.cn/">工业和信息化部</option>
+                            <option value="http://www.seac.gov.cn">国家民族事务委员会</option>
+                            <option value="http://www.mps.gov.cn">公安部</option>
+                            <option value="#">国家安全部</option>
+                            <!--<option value="http://www.ccdi.gov.cn/">监察部</option>-->
+                            <option value="http://www.mca.gov.cn">民政部</option>
+                            <option value="http://www.moj.gov.cn/">司法部</option>
+                            <option value="http://www.mof.gov.cn/index.htm">财政部</option>
+                            <option value="http://www.mohrss.gov.cn/">人力资源和社会保障部</option>
+                            <option value="http://www.mnr.gov.cn/">自然资源部</option>
+                            <option value="http://www.mep.gov.cn/">生态环境部</option>
+                            <option value="http://www.mohurd.gov.cn/">住房和城乡建设部</option>
+                            <option value="http://www.mot.gov.cn/">交通运输部</option>
+                            <option value="http://www.mwr.gov.cn/">水利部</option>
+                            <option value="http://www.moa.gov.cn/">农业农村部</option>
+                            <option value="http://www.mofcom.gov.cn/">商务部</option>
+                            <option value="http://www.mct.gov.cn/">文化和旅游部</option>
+                            <option value="http://www.nhfpc.gov.cn/">国家卫生健康委员会</option>
+                            <option value="http://www.mva.gov.cn/">退役军人事务部</option>
+                            <option value="http://www.chinasafety.gov.cn/">应急管理部</option>
+                            <option value="http://www.pbc.gov.cn/">人民银行</option>
+                            <option value="http://www.audit.gov.cn/">审计署</option>
+                            <option value="http://www.china-language.gov.cn/">国家语言文字工作委员会
+                            </option>
+                            <option value="http://www.safea.gov.cn/">国家外国专家局</option>
+                            <option value="http://www.cnsa.gov.cn/">国家航天局</option>
+                            <option value="http://www.caea.gov.cn/">国家原子能机构</option>
+                            <option value="http://www.soa.gov.cn/">国家海洋局</option>
+                            <option value="http://nnsa.mep.gov.cn/">国家核安全局</option>
+                            <option value="http://www.sasac.gov.cn/">国务院国有资产监督管理委员会</option>
+                            <option value="http://www.customs.gov.cn/">海关总署</option>
+                            <option value="http://www.chinatax.gov.cn/">国家税务总局</option>
+                            <option value="http://samr.saic.gov.cn/">国家市场监督管理总局</option>
+                            <option value="http://www.sapprft.gov.cn/">国家广播电视总局</option>
+                            <option value="http://www.sport.gov.cn/">国家体育总局</option>
+                            <option value="http://www.stats.gov.cn/">国家统计局</option>
+                            <option value="#">国家国际发展合作署</option>
+                            <option value="#">国家医疗保障局</option>
+                            <option value="http://www.counsellor.gov.cn/">国务院参事室</option>
+                            <option value="http://www.ggj.gov.cn/">国家机关事务管理局</option>
+                            <option value="http://www.cnca.gov.cn/">国家认证认可监督管理委员会</option>
+                            <option value="http://www.sac.gov.cn/">国家标准化管理委员会</option>
+                            <option value="http://www.ncac.gov.cn/">国家新闻出版署（国家版权局）</option>
+                            <option value="http://www.sara.gov.cn/">国家宗教事务局</option>
+                            <option value="http://www.hmo.gov.cn/">国务院港澳事务办公室</option>
+                            <option value="http://www.gov.cn/guoqing/2018-06/22/content_5300522.htm">
+                                国务院研究室
+                            </option>
+                            <option value="http://www.gqb.gov.cn/">国务院侨务办公室</option>
+                            <option value="http://www.gwytb.gov.cn/">国务院台湾事务办公室</option>
+                            <option value="http://www.cac.gov.cn/">国家互联网信息办公室</option>
+                            <option value="http://www.scio.gov.cn/index.htm">国务院新闻办公室</option>
+                            <option value="http://203.192.6.89/xhs/">新华通讯社</option>
+                            <option value="http://www.cas.ac.cn/">中国科学院</option>
+                            <option value="http://www.cssn.cn/">中国社会科学院</option>
+                            <option value="http://www.cae.cn/">中国工程院</option>
+                            <option value="http://www.drc.gov.cn/">国务院发展研究中心</option>
+                            <option value="#">中央广播电视总台</option>
+                            <option value="http://www.cma.gov.cn/">中国气象局</option>
+                            <option value="http://www.cbrc.gov.cn/">中国银行保险监督管理委员会</option>
+                            <option value="http://www.csrc.gov.cn/pub/newsite/">中国证券监督管理委员会
+                            </option>
+                            <option value="http://www.nsa.gov.cn/">国家行政学院</option>
+                            <option value="http://www.gjxfj.gov.cn/">国家信访局</option>
+                            <option value="#">国家粮食和物资储备局</option>
+                            <option value="http://www.nea.gov.cn/">国家能源局</option>
+                            <option value="http://www.sastind.gov.cn/">国家国防科技工业局</option>
+                            <option value="#/">国家烟草专卖局</option>
+                            <option value="http://www.mps.gov.cn/n2254996/">国家移民管理局</option>
+                            <option value="http://www.forestry.gov.cn/">国家林业和草原局</option>
+                            <option value="http://www.nra.gov.cn/">国家铁路局</option>
+                            <option value="#">中国民用航空局</option>
+                            <option value="http://www.spb.gov.cn/">国家邮政局</option>
+                            <option value="http://www.sach.gov.cn/">国家文物局</option>
+                            <option value="http://www.satcm.gov.cn/">国家中医药管理局</option>
+                            <option value="http://www.chinacoal-safety.gov.cn/">国家煤矿安全监察局
+                            </option>
+                            <option value="http://www.safe.gov.cn/">国家外汇管理局</option>
+                            <option value="http://cnda.cfda.gov.cn/WS04/CL2042/">国家药品监督管理局
+                            </option>
+                            <option value="http://www.sipo.gov.cn/">国家知识产权局</option>
+                            <option value="#">出入境管理局</option>
+                            <option value="http://www.forestry.gov.cn/">国家公园管理局</option>
+                            <option value="http://www.scs.gov.cn/">国家公务员局</option>
+                            <option value="http://www.saac.gov.cn/">国家档案局</option>
+                            <option value="#">国家保密局</option>
+                            <option value="http://www.oscca.gov.cn/">国家密码管理局</option>
+                        </select></li>
+                    <li><select name="select" id="select"
+                                onChange=window.open(this.options[this.selectedIndex].value);this.selectedIndex=0
+                                style="width:140px">
+                        <option value="#" selected="selected">友情链接</option>
+                        <option value="http://www.spp.gov.cn/">最高人民检察院</option>
+                        <option value="http://www.court.gov.cn">最高人民法院</option>
+                    </select></li>
+                </ul>
+            </div>
+            <!--end component HTML组件(new)-->
+
+            <!--end-->
+
+            <!--begin-->
+
+            <!--start component 新闻列表(调查征集)-->
+            <div class="erlTitle"><b><a href="#" style="color:#2B4B7B;">调查征集</a></b></div>
+            <div class="tCenter zylj">
+                <li style="text-align:left; padding-left:6px;"><span
+                        style="line-height:18px; font-size:12px;"><a href=#
+                                                                     title="公安部关于《易制爆危险化学品治安管理办法（征求意见稿）》公开征求意见的公告">公安部关于《易制爆危险化学品治安管理办法（征求...</a></span>
+                </li>
+            </div>
+
+            <!--end component 新闻列表(调查征集)-->
+
+            <!--end-->
+        </div>
+
+
+        <div class="cb_left_conB">
+
+            <!--start component HTML组件(链接)-->
+            <div class="cb_links" style="padding-top:8px;">
+                <a href="#"><img src="/static/images/6259366.jpg"
+                                 width="170"></a>
+                <a href="#"><img src="/static/images/5373618.jpg"
+                                 width="170"></a>
+                <!-- <a href=http://qzlx.people.com.cn/><img src="http://www.mps.gov.cn/dbsource/4180400/4192561.jpg" width="170" /></a> -->
+                <a href="#"><img src="/static/images/3502919.jpg"
+                                 width="170"/></a>
+                <!--180525日注销<a href="#" ><img src="http://www.mps.gov.cn/dbsource/5419545/5446102.jpg" width="170"></a>
+                <a href="#" ><img src="http://www.mps.gov.cn/dbsource/5419545/5419548.jpg" width="170"></a>-->
+                <a href="#"><img src="/static/images/5577781.jpg"
+                                 width="170"></a>
+            </div>
+            <!--<div style="width:150px;height:40px;background-color:#e1eff9">&nbsp;</div>-->
+            <!--end component HTML组件(链接)-->
+
+
+        </div>
+    </div>
+
+    <div class="cb_right right">
+
+        <div class="cb_r_conA">
+            <!--left begin-->
+            <div class="crca_left left">
+                <!--BEGIN -->
+                <div class="errdlBom" style="height:auto;">
+
+                    <!--start component 新闻列表(工作动态)-->
+                    <div class="left bright_Dblue listStyle1"
+                         style="width:300px; height:193px;">
+                        <dl>
+                            <dt class="dtStyle2 relative">
+                                <span>工作动态</span>
+                                <a href="#">更多&gt;&gt;</a>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li><span>·</span> <a href="#" title="“放管服”改革提升获得感">“放管服”改革提升获得感</a>
+                                    </li>
+                                    <li><span>·</span> <a href="#" title="让群众切身感受到改革红利">让群众切身感受到改革红利</a>
+                                    </li>
+                                    <li><span>·</span> <a href="#" title="2019年春运交通安保圆满收官">2019年春运交通安保圆满收官</a>
+                                    </li>
+                                    <li><span>·</span> <a href="#"
+                                                          title="公安部发布会预告：通报打击非洲猪瘟相关食品犯罪情况">公安部发布会预告：通报打击非洲猪瘟相...</a>
+                                    </li>
+                                    <li><span>·</span> <a href="#" title="驱动智慧引擎 浇筑平安社区">驱动智慧引擎
+                                        浇筑平安社区</a></li>
+                                    <li><span>·</span> <a href="#" title="以担当奉献筑牢大型活动安保盾牌">以担当奉献筑牢大型活动安保盾牌</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <!--end component 新闻列表(工作动态)-->
+
+
+                    <!--start component 新闻列表(各地警务)-->
+                    <div class="right listStyle1" style="width:297px; height:193px;">
+                        <dl>
+                            <dt class="dtStyle2 relative">
+                                <span>各地警务</span>
+                                <a href=#>更多&gt;&gt;</a>
+                            </dt>
+
+                            <dd>
+                                <ul>
+                                    <li><span>·</span> <a href=# title="各地铁路民警服务春运保障旅客安全出行">各地铁路民警服务春运保障旅客安全出行</a>
+                                    </li>
+                                    <li><span>·</span> <a href=# title="山东公安持续推动基层基础内涵式发展">山东公安持续推动基层基础内涵式发展</a>
+                                    </li>
+                                    <li><span>·</span> <a href=#
+                                                          title="北京市公安局掀起学习宣传贯彻习近平总书记看望慰问时的重要讲话精神热潮">北京市公安局掀起学习宣传贯彻习近平总...</a>
+                                    </li>
+                                    <li><span>·</span> <a href=# title="黑龙江“六大工程”夯实公安工作高质量发展根基">黑龙江“六大工程”夯实公安工作高质量...</a>
+                                    </li>
+                                    <li><span>·</span> <a href=# title="江西“放管服”推出“123”新政">江西“放管服”推出“123”新政</a>
+                                    </li>
+                                    <li><span>·</span> <a href=# title="甘肃扎实做好春运交通安保">甘肃扎实做好春运交通安保</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <!--end component 新闻列表(各地警务)-->
+
+
+                    <div class="clear"></div>
+                </div>
+                <!--END -->
+
+
+                <!--BEGIN -->
+                <div class="errdlBom" style="height:auto;">
+
+                    <!--start component 新闻列表(政策法规)-->
+                    <script type="text/javascript">
+                        function setTab(name, cursel, n) {
+                            for (i = 1; i <= n; i++) {
+                                var menu = document.getElementById(name + i);
+                                var con = document.getElementById("con_" + name + "_" + i);
+                                menu.className = i == cursel ? "ls1A1" : "ls1A2";
+                                con.style.display = i == cursel ? "block" : "none";
+                            }
+                        }
+                    </script>
+
+                    <div class="left bright_Dblue listStyle1"
+                         style="width:300px; height:193px;">
+                        <dl>
+                            <dt class="dtStyle1">
+                                <a href="#" class="ls1A1" id="dc11">政策法规</a>
+                            </dt>
+                            <dd id="con_dc1_1" style="display: block;">
+                                <ul>
+                                    <li><span>·</span><a href="#"
+                                                         title="公安部举行新闻发布会就严厉打击涉非洲猪瘟相关犯罪有关情况答记者问">公安部举行新闻发布会就严厉打击涉非洲...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#"
+                                                         title="公安部举行新闻发布会就打击“套路贷”新型黑恶势力犯罪有关情况答记者问">公安部举行新闻发布会就打击“套路贷”...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#"
+                                                         title="最高人民法院最高人民检察院公安部司法部生态环境部关于办理环境污染刑事案件有关问题座谈会纪要">最高人民法院最高人民检察院公安部司法...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#"
+                                                         title="最高人民法院最高人民检察院公安部关于办理非法集资刑事案件若干问题的意见">最高人民法院最高人民检察院公安部关于...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#"
+                                                         title="公安部召开新闻发布会就我国道路交通安全整体形势和交通安全风险隐患排查情况答记者问">公安部召开新闻发布会就我国道路交通安...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#"
+                                                         title="公安部召开新闻发布会就全国公安机关开展扫黑除恶专项斗争有关情况答记者问">公安部召开新闻发布会就全国公安机关开...</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!--end component 新闻列表(政策法规)-->
+
+
+                    <!--start component 新闻列表(通知公告)-->
+                    <div class="right listStyle1" style="width:299px; height:193px;">
+                        <dl>
+                            <dt class="dtStyle1">
+                                <a href="#" class="ls1A1" id="dc21">通知公告</a>
+                            </dt>
+                            <dd id="con_dc2_1" style="display: block;">
+                                <ul>
+                                    <li><span>·</span><a href="#"
+                                                         title="中央网信办、工业和信息化部、公安部、市场监管总局关于开展App违法违规收集使用个人信息专项治理的公告">中央网信办、工业和信息化部、公安部...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#" title="公安部公布全国公安机关扫黑除恶举报方式">公安部公布全国公安机关扫黑除恶举报...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#"
+                                                         title="关于向社会公布《公安部第五届党风政风警风监督员名单》的公告">关于向社会公布《公安部第五届党风政...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#" title="公安部直属单位2018年拟录用人员公示公告">公安部直属单位2018年拟录用人员...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#"
+                                                         title="公安部直属单位2019年度统一公开招录人民警察及工作人员公告">公安部直属单位2019年度统一公开...</a>
+                                    </li>
+                                    <li><span>·</span><a href="#"
+                                                         title="公安部关于印发《公安国家赔偿法律文书（式样）》的通知">公安部关于印发《公安国家赔偿法律文...</a>
+                                    </li>
+                                </ul>
+                            </dd>
+
+                        </dl>
+                    </div>
+                    <!--end component 新闻列表(通知公告)-->
+
+
+                    <div class="clear"></div>
+                </div>
+                <!--END -->
+
+                <div class="mailLog">
+
+                    <!--start component HTML组件(邮箱登陆)-->
+
+
+                    <FORM action="https://mail.mps.gov.cn/coremail/login.jsp" method="post"
+                          name="login" style="margin:0; padding:0;">
+
+
+                        <table width="100%" cellpadding="8" cellspacing="0" height="43">
+                            <tr>
+                                <td width="60"><label>用户名</label></td>
+                                <td width="120"><INPUT type=text name=uid value="" tabindex=1
+                                                       size="12"></td>
+                                <td width="35"><font size="2" width="40"
+                                                     face="Arial, Helvetica, sans-serif">域名</font>
+                                </td>
+                                <td width="115">
+                                    <select style="width: 115" name="domain">
+                                        <option value="mps.gov.cn" selected="selected">
+                                            mps.gov.cn
+                                        </option>
+                                    </select>
+                                </td>
+                                <td width="50"><label>密码</label></td>
+                                <td width="120"><input name=password type=password value=""
+                                                       class="k-2" id="textfield" size="12"
+                                                       tabindex=3/></td>
+                                <td align="right"><input name=enter type="image"
+                                                         src="/static/images/5655803.gif"
+                                                         border="0"></td>
+                            </tr>
+                        </table>
+
+                    </FORM>
+                    <!--end component HTML组件(邮箱登陆)-->
+
+
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--left end-->
+
+
+            <!--right begin-->
+            <div class="crca_right right">
+
+
+                <!--start component 新闻列表(公开目录)-->
+                <!--
+                <div class="erRCon">
+                                    <dl>
+                                        <dt>公安部政府信息公开</dt>
+                                    </dl>
+                                </div>
+                -->
+                <style>
+                    .qh1A1 {
+                        background: url("/static/images/5482363.gif") no-repeat scroll 0 0 transparent;
+                    }
+
+                    .qh1A2 {
+                        background: url("/static/images/5482367.gif") no-repeat scroll 0 0 transparent;
+                    }
+
+                    .qh2A1 {
+                        background: url("/static/images/5482371.gif") no-repeat scroll 0 0 transparent;
+                    }
+
+                    .qh2A2 {
+                        background: url("/static/images/5482375.gif") no-repeat scroll 0 0 transparent;
+                    }
+                </style>
+                <script type="text/JavaScript">
+                    function showa() {
+                        document.getElementById("qh1A1").className = "qh1A1";
+                        document.getElementById("qh1A2").className = "qh2A2";
+                        document.getElementById("qh2A1").style.display = "block";
+                        document.getElementById("qh2A2").style.display = "none";
+                    }
+
+                    function showb() {
+                        document.getElementById("qh1A1").className = "qh1A2";
+                        document.getElementById("qh1A2").className = "qh2A1";
+                        document.getElementById("qh2A1").style.display = "none";
+                        document.getElementById("qh2A2").style.display = "block";
+                    }
+                </script>
+                <div class="erRCon4">
+                    <dl>
+                        <dt>
+                            <a href="#" " class="qh1A2" style="float:left; width:80px"
+                            id="qh1A1" onmouseover="showa()">国务院文件</a>
+                            <a class="qh2A1" style="float:right; width:128px; cursor:pointer"
+                               id="qh1A2" onmouseover="showb()">公安部政府信息公开</a>
+                            <div class="clear"></div>
+                        </dt>
+                    </dl>
+                </div>
+                <div class="border_Dblue i_xxgk" style="border-top:0;display:block" id="qh2A2">
+                    <dl>
+                        <dt class="lmlb" style="padding-bottom:4px;height:87px;">
+                            <ul>
+                                <li><a href="#">公开规定</a></li>
+                                <li><a href="#">公开指南</a></li>
+                                <li><a href="#">公开目录</a></li>
+                                <!--<li><a href="#" >公开目录</a></li>-->
+                                <li><a href="#">公开年报</a></li>
+                                <li><a href="#">公开查询</a></li>
+                                <li><a href="#">公开申请</a></li>
+                            </ul>
+                        </dt>
+                        <dd style="height:73px;">
+                            <ul>
+                                <li>
+                                    <a href="#"><span style="font-size:12px;line-height:36px;">规划计划</span></a>　　　
+                                    <a href="#"><span style="font-size:12px;line-height:36px;">人事信息</span></a>
+                                </li>
+
+                                <li style="text-align: left;padding-left: 22px;">
+                                    <a href="#" "><span
+                                        style="font-size:12px;line-height:36px;">政府采购</span></a>
+                                    　　　
+                                    　　　　　
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+
+                    <div class="clear"></div>
+                </div>
+
+                <div class="erRCon3" id="qh2A1" style="display:none">
+                    <div class="border_Dblue"
+                         style="border-top:0; padding-top:5px; padding-bottom:5px">
+                        <ul class="sanjiao">
+                            <li><a href="#" title="国务院办公厅关于印发2018年政务公开工作要点的通知（国办发〔2018〕23号）">国务院办公厅关于印发201...</a>
+                            </li>
+                            <li><a href="#"
+                                   title="国务院办公厅关于调整首届中国国际进口博览会筹备委员会组成人员的通知（国办发〔2018〕25号）">国务院办公厅关于调整首届中...</a>
+                            </li>
+                            <li><a href="#" title="国务院办公厅关于做好政府公报工作的通知（国办发〔2018〕22号）">国务院办公厅关于做好政府公...</a>
+                            </li>
+                            <li><a href="#" title="国务院关于落实《政府工作报告》重点工作部门分工的意见（国发〔2018〕9号）">国务院关于落实《政府工作报...</a>
+                            </li>
+                            <li><a href="#" title="国务院办公厅关于全面推进金融业综合统计工作的意见（国办发〔2018〕18号）">国务院办公厅关于全面推进金...</a>
+                            </li>
+                            <li><a href="#"
+                                   title="国务院关于在海南博鳌乐城国际医疗旅游先行区暂停实施《医疗器械监督管理条例》有关规定的决定（国发〔2018〕10号）">国务院关于在海南博鳌乐城国...</a>
+                            </li>
+                            <li><a href="#" title="国务院关于修改和废止部分行政法规的决定（国令第698号）">国务院关于修改和废止部分行...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end component 新闻列表(公开目录)-->
+
+
+                <div class="h_wu"></div>
+
+                <div class="">
+
+
+                    <!--start component 图片列表(嘉宾访谈)-->
+                    <style>
+                        .erRCon4 dl dt .ls2A1 {
+                            background: url("/static/images/3502922.gif") no-repeat scroll 0 0 transparent;
+                        }
+
+                        .erRCon4 dl dt .ls2A2 {
+                            background: url("/static/images/3502921.gif") no-repeat scroll 0 0 transparent;
+                        }
+                    </style>
+                    <div class="erRCon4">
+                        <dl>
+                            <dt id="demo">
+                                <a href=# class="ls2A1" style="float:left;">新闻发布会</a>
+                                <a href=# class="ls2A2" style="float:right;">嘉宾访谈</a>
+                                <div class="clear"></div>
+                            </dt>
+                        </dl>
+                    </div>
+                    <div class="erRCon3">
+                        <div class="border_Dblue"
+                             style="display:none; border-top:0; height:196px; " id="con_1">
+                            <dl>
+                                <dt><a href="#"><img
+                                        src="/static/images/pic_6167304.jpg"
+                                        width="90" height="60" border=0></a></dt>
+                                <dd>
+                                    <a href="#"
+                                       style="line-height:16px">全国公安厅局长访谈之二十九：山东青岛亮平安名片</a>
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li><a href="#" title="全国公安厅局长访谈之二十八：广东广州创新筑平安">
+                                    全国公安厅局长访谈之二十八：..</a></li>
+                                <li><a href="#" title="全国公安厅局长访谈之二十七：河南建设高质量公安">
+                                    全国公安厅局长访谈之二十七：..</a></li>
+                                <li><a href="#" title="全国公安厅局长访谈之二十六：浙江湖州绘平安画卷">
+                                    全国公安厅局长访谈之二十六：..</a></li>
+                                <li><a href="#" title="全国公安厅局长访谈之二十五：江苏苏州书平安答卷">
+                                    全国公安厅局长访谈之二十五：..</a></li>
+                            </ul>
+                        </div>
+                        <!--end component 图片列表(嘉宾访谈)-->
+
+                        <!--start component 图片列表(新闻发布会)-->
+                        <div class="border_Dblue"
+                             style="display:block; border-top:0; height:196px;" id="con_0">
+                            <dl>
+                                <dt><a href=# title="公安部发布会：通报公安机关严厉打击涉非洲猪瘟相关犯罪工作情况"><img
+                                        src="/static/images/pic_6423730.jpg"
+                                        width="90" height="60" border=0></a></dt>
+                                <dd>
+                                    <a href=# style="line-height:16px"
+                                       title="公安部发布会：通报公安机关严厉打击涉非洲猪瘟相关犯罪工作情况">公安部发布会：通报公安机关严厉打击涉非洲猪瘟相关犯...</a>
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li><a href=# title="公安部发布会：通报全国公安机关打击“套路贷”新型黑恶势力情况">公安部发布会：通报全国公安机...</a>
+                                </li>
+                                <li><a href=# title="公安部发布会：通报道路交通安全形势和风险隐患排查情况">公安部发布会：通报道路交通安...</a>
+                                </li>
+                                <li><a href=# title="公安部发布会：通报全国公安机关扫黑除恶专项斗争有关情况">公安部发布会：通报全国公安机...</a>
+                                </li>
+                                <li><a href=# title="公安部发布会：通报铁路公安机关加强春运安保举措和公安机关严厉打击诈骗活动成效">公安部发布会：通报铁路公安机...</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+                        function __hover(id, oDiv) {
+                            var _tag = 'a';
+                            var _link = 'ls2A2';
+                            var _hover = 'ls2A1';
+                            //
+                            var obj = document.getElementById(id);
+                            var oArr = obj.getElementsByTagName(_tag);
+                            for (var i = 0; i < oArr.length; i++) {
+                                oArr[i].index = i;
+                                oArr[i].onmouseover = function () {
+                                    for (var j = 0; j < oArr.length; j++) {
+                                        document.getElementById(oDiv + j).style.display = 'none';
+                                        oArr[j].className = _link;
+                                    }
+                                    oArr[this.index].className = _hover;
+                                    document.getElementById(oDiv + this.index).style.display = 'block';
+                                }
+                            }
+
+                        }
+
+                        __hover('demo', 'con_');
+
+                    </script>
+                    <!--end component 图片列表(新闻发布会)-->
+
+
+                </div>
+
+            </div>
+            <!--right end-->
+            <div class="clear"></div>
+        </div>
+
+        <div class="h_wu"></div>
+
+        <!--start component HTML组件(办事服务)-->
+        <div class="tiao_lanmu relative">
+            <h3><a href="#"><a name="0516"></a><img
+                    src="/static/images/3502856.gif"></a></h3>
+        </div>
+        <!--end component HTML组件(办事服务)-->
+
+
+        <div class="h_wu"></div>
+
+
+        <div class="cb_r_conB">
+            <!--left begin-->
+            <div class="crca_left left">
+                <div class="crca_l_left left bright_Dblue">
+
+                    <!--begin-->
+
+                    <!--start component HTML组件(办事指南)-->
+                    <div class="crca_ll_bszl" style="width:300px;">
+                        <dl>
+                            <dt class="dtStyle2 relative"><span>办事指南</span></dt>
+                        </dl>
+                        <table width="100%" cellpadding="5" cellspacing="0">
+                            <tr>
+                                <td width="22%" valign="top"><b>公&nbsp;&nbsp;民:</b></td>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td><a href="#">出入境管理</a></td>
+                                            <td><a href="#">交通管理</a></td>
+                                            <td><a href="#">边防管理</a></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td valign="top"><b>企&nbsp;&nbsp;业:</b></td>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td width="90"><a href="#">边防管理</a></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="20%" valign="top">&nbsp;</td>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td><a href="#" style="line-height:16px;">计算机信息系统安全专用产品销售许可服务平台</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top"><b>外国人:</b></td>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td><a href="#">申领签证</a></td>
+                                            <td><a href="#">住宿登记</a></td>
+                                            <td><a href="#">申领居留许可证</a></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!--end component HTML组件(办事指南)-->
+
+
+                    <!--end-->
+
+                    <!--begin-->
+
+                    <!--start component 新闻列表(交通管理)-->
+                    <style type="text/css">
+                        .crca_ll_bgxz .wdxtgfw_top a {
+                            width: 74px;
+                        }
+
+
+                    </style>
+
+                    <script type="text/javascript">
+                        function setTab1(name, cursel, n) {
+                            for (i = 1; i <= n; i++) {
+                                var menu = document.getElementById(name + i);
+                                var con = document.getElementById("con_" + name + "_" + i);
+                                menu.className = i == cursel ? "wd1A1" : "wd1A2";
+                                con.style.display = i == cursel ? "block" : "none";
+                            }
+                        }
+                    </script>
+
+                    <div class="crca_ll_bgxz" style="width:285px">
+                        <dl>
+                            <dt class="dtStyle2 relative"><span>表格下载</span></dt>
+                        </dl>
+
+
+                        <div class="wdxtgfw_top bleft_Dblue bright_Dblue">
+
+                            <a href="#" class="wd1A1" style="width:65px"
+                               onmouseover="setTab1('dc3',1,3)" id="dc31">交通管理</a>
+                            <a href="#" class="wd1A2" style="width:85px"
+                               onmouseover="setTab1('dc3',2,3)" id="dc32">出入境管理</a>
+                            <a href="#" class="wd1A2" style="border:0;width:65px"
+                               onmouseover="setTab1('dc3',3,3)" id="dc33">边防管理</a>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="h_wu"></div>
+
+                        <div class="listStyle1" style="height:100px;display: block;"
+                             id="con_dc3_1">
+                            <dl>
+                                <dd>
+                                    <ul>
+                                        <li><span>·</span><a href="#" title="机动车驾驶人身体条件证明（式样）">机动车驾驶人身体条件证明（式样）</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="机动车驾驶人身体情况申报表">机动车驾驶人身体情况申报表</a>
+                                        </li>
+                                        <li><span>·</span><a href="#"
+                                                             title="机动车注册、转移、注销登记/转入申请表">机动车注册、转移、注销登记/转入申...</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="机动车抵押登记/质押备案申请表">机动车抵押登记/质押备案申请表</a>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                        <!--end component 新闻列表(交通管理)-->
+
+                        <!--start component 新闻列表(出入境管理)-->
+                        <div class="listStyle1" style="height:100px; display: none;"
+                             id="con_dc3_2">
+                            <dl>
+                                <dd>
+                                    <ul>
+                                        <li><span>·</span><a href="#" title="出入境记录查询结果">出入境记录查询结果</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="查询出入境记录申请表">查询出入境记录申请表</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="境外人员临时住宿登记表">境外人员临时住宿登记表</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="台湾居民来大陆定居申请表">台湾居民来大陆定居申请表</a>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                        <!--end component 新闻列表(出入境管理)-->
+
+                        <!--start component 新闻列表(边防管理)-->
+                        <div class="listStyle1" style="height:100px; display: none;"
+                             id="con_dc3_3">
+                            <dl>
+                                <dd>
+                                    <ul>
+                                        <li><span>·</span><a href="#"
+                                                             title="船舶户牌下载表">船舶户牌下载表</a></li>
+                                        <li><span>·</span><a href="#" title="《(临时)船民证》申领登记表">《(临时)船民证》申领登记表</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="船民证下载表">船民证下载表</a>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <!--end component 新闻列表(边防管理)-->
+
+
+                    <!--end-->
+
+
+                    <!--begin-->
+
+
+                    <!--end-->
+                </div>
+
+
+                <div class="crca_l_right right">
+                    <!--begin-->
+
+                    <!--start component HTML组件(场景式服务)-->
+                    <div class="crca_ll_cjfw">
+                        <dl>
+                            <a href="#" style="cursor:pointer;">
+                                <dt class="dtStyle2 relative"><span>场景式服务</span></dt>
+                            </a>
+                        </dl>
+                        <div class="">
+                            <a href=http://app.mps.gov.cn:8090/client/scene.jsp?id=56><img
+                                    src="/static/images/3502878.gif"
+                                    width="60" style=" margin-left:10px;"/></a>
+                            <a href="#"><img
+                                    src="/static/images/3502877.gif"
+                                    width="60" style=" margin-left:10px;"/></a>
+                            <a href="#"><img
+                                    src="/static/images/3502881.gif"
+                                    width="60" style=" margin-left:10px;"/></a>
+                            <a href="#"><img
+                                    src="/static/images/3502880.gif"
+                                    width="60" style=" margin-left:10px;"/></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <!--end component HTML组件(场景式服务)-->
+
+
+                    <!--end-->
+
+                    <!--begin-->
+
+
+                    <!--end-->
+
+                    <!--begin-->
+
+                    <!--start component 新闻列表(办事咨询)-->
+                    <div class="crca_ll_bgxz w305">
+                        <dl>
+                            <dt class="dtStyle2 relative">
+                                <span>办事咨询</span>
+                                <a href="#">更多&gt;&gt;</a>
+                            </dt>
+                        </dl>
+                        <div class="listStyle1" style="height:190px;">
+                            <dl>
+                                <dd>
+                                    <ul>
+                                        <li><span>·</span><a href="#" title="关于未成年子女身份证的相关问题">关于未成年子女身份证的相关问题</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="关于C1驾驶本驾驶车型问题">关于C1驾驶本驾驶车型问题</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="关于异地车辆年检的相关问题">关于异地车辆年检的相关问题</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="关于居民身份证相片更换的相关问题">关于居民身份证相片更换的相关问题</a>
+                                        </li>
+                                        <li><span>·</span><a href="#"
+                                                             title="关于道路运输企业聘用驾驶人备案的相关问题">关于道路运输企业聘用驾驶人备案的相...</a>
+                                        </li>
+                                        <li><span>·</span><a href="#"
+                                                             title="关于大客车驾驶证实习期满转正的相关问题">关于大客车驾驶证实习期满转正的相关...</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="关于申请变更民族成份的相关问题">关于申请变更民族成份的相关问题</a>
+                                        </li>
+                                        <li><span>·</span><a href="#" title="关于换领新护照后使用的相关问题">关于换领新护照后使用的相关问题</a>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <!--end component 新闻列表(办事咨询)-->
+
+
+                    <!--end-->
+
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--left end-->
+
+            <!--left begin-->
+            <div class="crca_right right">
+                <!--begin-->
+
+                <!--start component 新闻列表(警方提示)-->
+                <div class="cb_links"><a href="#"><img
+                        src="/static/images/5709994.jpg"></a></div>
+                <div class="">
+                    <div class="border_Dblue cb_links"
+                         style="text-align:center;padding-top:5px;">
+                        <div></div>
+                        <a href=https://s.nia.gov.cn><img
+                                src="/static/images/5577778.jpg"></a><br/>
+                        <a href="#"><img
+                                src="/static/images/5577775.jpg"></a><br/>
+                        <a href="#"><img
+                                src="/static/images/5693049.jpg"></a>
+                    </div>
+
+                    <div class="wdxtgfw_top bleft_Dblue bright_Dblue">
+                        <a href=# class="wd1A1" style="width:103px;">警方提示</a>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="erRCon3 border_Dblue" style="border-top:0;border-bottom:0;">
+                        <ul class="sanjiao"
+                            style="border-bottom: 1px solid #b1cbe4; margin-bottom: 4px;">
+                            <li><a href=#>公安部交管局发布节日交通安...</a></li>
+                            <li><a href=#>关于防范以“虚拟货币”“区...</a></li>
+                            <li><a href=#>公安部交管局发布暑期交通安...</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--end component 新闻列表(警方提示)-->
+
+
+                <!--end-->
+
+                <!--begin-->
+
+
+                <!--end-->
+
+                <!--begin-->
+
+                <!--start component HTML组件(图片)-->
+                <div class="cb_links"><a href="#"><img
+                        src="/static/images/5709991.jpg"
+                        width="210"></a></div>
+                <!--<div class="cb_links"><a href="#" ><img src="http://www.mps.gov.cn/dbsource/4939596/5709991.jpg" width="210"></a></div>-->
+                <!--end component HTML组件(图片)-->
+
+
+                <!--end-->
+            </div>
+            <!--left end-->
+            <div class="clear"></div>
+        </div>
+
+
+        <!--start component HTML组件(警民互动)-->
+        <div class="tiao_lanmu relative">
+            <h3><a href="#"><img src="/static/images/3502891.gif"/></a>
+            </h3>
+            <!--<h3><a href="#" ><img src="http://www.mps.gov.cn/template/3502845/3502891.gif" /></a></h3>-->
+            <!--
+                        <h6><a href="#"><img src="http://www.mps.gov.cn/template/3502845/3502867.gif" /></a></h6>
+            -->
+        </div>
+        <!--end component HTML组件(警民互动)-->
+
+
+        <div class="h_wu"></div>
+
+
+        <div class="cb_r_conC">
+            <!--left begin-->
+            <div class="crca_left left">
+                <div class="crca_l_left left bright_Dblue">
+                    <!--begin-->
+
+                    <!--start component 图片列表(嘉宾访谈)-->
+                    <div style="width:295px;">
+                        <div class="tsDiv" style="width:295px;">
+                            <dl>
+                                <dt><b onclick="window.open('#')"
+                                       style="cursor:pointer">嘉宾访谈</b></dt>
+                            </dl>
+                        </div>
+                        <div class="crca_ll_jbft">
+                            <dl>
+                                <dt><a href="#"><img
+                                        src="/static/images/pic_6167304.jpg"
+                                        width="105" height="80" border=0></a></dt>
+                                <dd><span style="float:left;padding-left:3px;">嘉宾:</span>
+                                    <div style="float:left;width:140px;">山东省青岛市副市长、公安局长闫希军</div>
+                                </dd>
+                                <dd><span>主题:</span><a href="#">全国公安厅局长...</a></dd>
+                                <dd><span>时间:</span>2018年7月6日</dd>
+                            </dl>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <!--end component 图片列表(嘉宾访谈)-->
+
+
+                    <!--end-->
+
+                    <div class="h_wu"></div>
+
+                    <!--begin-->
+
+                    <!--start component 新闻列表(往期回顾)-->
+                    <div class="tsDiv tsDiv2" style="width:297px;">
+                        <dl>
+                            <dt><b onclick="window.open('#')" style="cursor:pointer">往期回顾</b>
+                            </dt>
+                            <dd><span>·</span><a href="#">全国公安厅局长访谈之二十九：山东青岛...</a></dd>
+                            <dd><span>·</span><a href="#">全国公安厅局长访谈之二十八：广东广州...</a></dd>
+                            <dd><span>·</span><a href="#">全国公安厅局长访谈之二十七：河南建设...</a></dd>
+                            <dd><span>·</span><a href="#">全国公安厅局长访谈之二十六：浙江湖州...</a></dd>
+                        </dl>
+                    </div>
+                    <!--end component 新闻列表(往期回顾)-->
+
+
+                    <!--end-->
+                </div>
+
+                <div class="crca_l_right right" style="width:300px;">
+                    <!--begin-->
+
+                    <!--start component 新闻列表(警事咨询)-->
+                    <div class="tsDiv">
+                        <dl>
+                            <dt><b>警事咨询</b> <a href="#"
+                                               style="font-weight:normal;">更多&gt;&gt;</a></dt>
+                            <!--<dt><b><a href="#">警事咨询</a></b> <a href="#" style="font-weight:normal;">更多&gt;&gt;</a></dt>-->
+
+                            <dd><span>·</span><a href="#"
+                                                 title="关于申请驾驶证补证的相关问题">关于申请驾驶证补证的相关问题</a></dd>
+                            <dd><span>·</span><a href="#" title="关于换领机动车驾驶证的相关问题">关于换领机动车驾驶证的相关问题</a>
+                            </dd>
+                            <dd><span>·</span><a href="#" title="关于互联网安全监督检查对象的相关问题">关于互联网安全监督检查对象的相关问...</a>
+                            </dd>
+                            <dd><span>·</span><a href="#"
+                                                 title="关于交通违法记分的相关问题">关于交通违法记分的相关问题</a></dd>
+                        </dl>
+                    </div>
+                    <!--end component 新闻列表(警事咨询)-->
+
+
+                    <!--end-->
+
+                    <div class="h_wu"></div>
+
+                    <!--begin-->
+
+                    <!--start component 新闻列表(热点问题)-->
+                    <div class="tsDiv tsDiv2">
+                        <dl>
+                            <dt><b>热点问题</b> <a href="#"
+                                               style="font-weight:normal;">更多&gt;&gt;</a></dt>
+                            <dd><span>·</span><a href="#"
+                                                 title="关于企业公章刻制的相关问题">关于企业公章刻制的相关问题</a></dd>
+                            <dd><span>·</span><a href="#" title="关于遗失港澳同胞回乡证的相关问题">关于遗失港澳同胞回乡证的相关问题</a>
+                            </dd>
+                            <dd><span>·</span><a href="#" title="关于邮政网点代办公安交管业务的相关问题">关于邮政网点代办公安交管业务的相关问...</a>
+                            </dd>
+                            <dd><span>·</span><a href="#" title="关于网约车驾驶员资质的相关问题">关于网约车驾驶员资质的相关问题</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!--end component 新闻列表(热点问题)-->
+
+
+                    <!--end-->
+                </div>
+
+
+            </div>
+            <!--left end-->
+
+
+            <!--right begin-->
+            <div class="crca_right right">
+                <!--begin-->
+
+
+                <!--end-->
+
+                <div class="h_wu"></div>
+
+                <!--begin-->
+
+                <!--start component HTML组件(投诉举报)-->
+                <div>
+                    <div class="erRCon">
+                        <dl>
+                            <dt>投诉举报</dt>
+                        </dl>
+                    </div>
+                    <div class="erRCon3">
+                        <div class="border_Dblue" style="border-top:0;">
+                            <ul class="sanjiao">
+                                <li><a href="#">非法集资案件投资人信息登记平台</a></li>
+                                <li><a href="#">网络违法犯罪举报网站</a></li>
+                                <li><a href="#">户口问题（线索）举报投诉方式</a></li>
+
+                                <li><a href="#">打击涉枪涉爆犯罪有奖举报信箱</a></li>
+                                <li><a href="#">扫毒害保平安举报信箱</a></li>
+                                <li><a href="#">打击拐卖儿童、妇女犯罪信箱</a></li>
+                                <li><a href="#">逃犯线索举报信箱</a></li>
+
+                                <!--<li><a href="#">打击涉枪涉爆犯罪有奖举报信箱</a></li>
+                                <li><a href="#">扫毒害保平安举报信箱</a></li>
+                                 <li><a href="#">打击拐卖儿童、妇女犯罪信箱</a></li>
+                                <li><a href="#">逃犯线索举报信箱</a></li>-->
+
+                                <li style="word-wrap:break-word;height:44px"><a href="#">国际刑警组织中国国家中心局境外追逃举报信箱</a>
+                                </li>
+                                <li><a href=http://www.12389.gov.cn>公安部举报中心</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end component HTML组件(投诉举报)-->
+
+
+                <!--end-->
+            </div>
+            <!--right end-->
+            <div class="clear"></div>
+        </div>
+
+        <div class="cb_r_conD">
+            <!--begin-->
+            <div class="">
+
+
+                <div class="clear"></div>
+            </div>
+            <!--end-->
+            <!--begin-->
+            <div class="">
+
+
+                <div class="clear"></div>
+            </div>
+            <!--end-->
+            <!--begin-->
+            <div class="">
+
+
+                <div class="clear"></div>
+            </div>
+            <!--end-->
+        </div>
+        <div class="cb_r_conE"><!-- E--></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!-- conB end-->
+{/block}

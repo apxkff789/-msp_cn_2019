@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="/admin/assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="/admin/assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    {include file="common/title"}
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="/admin/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/admin/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet"/>
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="/admin/assets/demo/demo.css" rel="stylesheet"/>
+</head>
+
+<body class="">
+<div class="wrapper ">
+    {include file="common/navbar"}
+    <div class="main-panel">
+        <div class="content">
+            <form method="post" action="" class="form-horizontal" enctype="multipart/form-data">
+                <input type="hidden" name="class" value="3">
+                <!--默认为3-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card ">
+                            <div class="card-header ">
+                                用户类
+                            </div>
+                            <div class="card-body ">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="" style="margin-bottom: 10px;">
+                                            <label>头像</label>
+                                            <br>
+                                            <img src="{$data.photo}" alt="" width="154" height="205">
+                                            <br>
+                                            <input type="file" class="" name="image"  style="margin-top: 10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>姓名</label>
+                                            <input type="text" class="form-control" name="name" required value="{$data.name}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>曾用姓名</label>
+                                            <input type="text" class="form-control" name="usedName" value="{$data.usedName}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>身份证号</label>
+                                            <input type="text" class="form-control" name="idNum" required value="{$data.idNum}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>其他证件</label>
+                                            <input type="text" class="form-control" name="otherNum" value="{$data.otherNum}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>出生年月</label>
+                                            <input type="date" class="form-control" name="birthday" required value="{$data.birthday}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 checkbox-radios">
+                                        <label><span class="text-danger">*</span>性别</label>
+                                        <div class="row pt-2">
+                                            <div class="col-1">
+                                                <div class="form-check-radio">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="radio" name="sex"
+                                                               value="1" {if $data.sex == '男'}checked{/if}> 男
+                                                        <span class="form-check-sign"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-1">
+                                                <div class="form-check-radio">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="radio" name="sex"
+                                                               value="2" {if $data.sex == '女'}checked{/if}> 女
+                                                        <span class="form-check-sign"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>脸型</label>
+                                            <input type="text" class="form-control" name="face" value="{$data.face}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>身体标记</label>
+                                            <input type="text" class="form-control" name="bodyMark" value="{$data.bodyMark}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>户籍地址</label>
+                                            <input type="text" class="form-control" name="permanentAddress" value="{$data.permanentAddress}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>现住地址</label>
+                                            <input type="text" class="form-control" name="nowAddress" value="{$data.nowAddress}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label>现在身份</label>
+                                            <input type="text" class="form-control" name="identity" value="{$data.identity}">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ">
+                            <div class="card-header ">
+                                通缉令
+                            </div>
+                            <div class="card-body ">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>通缉编号</label>
+                                            <input type="text" class="form-control" name="wantedNum" required value="{$data.wantedNum}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>通缉时间</label>
+                                            <input type="date" class="form-control" name="wantedDate" required value="{$data.wantedDate}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>保密级别</label>
+                                            <input type="text" class="form-control" name="confidentiality" required value="{$data.confidentiality}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>简要案情</label>
+                                            <input type="text" class="form-control" name="briefCase" required value="{$data.briefCase}">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ">
+                            <div class="card-header ">
+                                冻结令
+                            </div>
+                            <div class="card-body ">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>冻结编号</label>
+                                            <input type="text" class="form-control" name="freezeNum" required value="{$data.freezeNum}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>冻结时间</label>
+                                            <input type="date" class="form-control" name="freezeDate" required value="{$data.freezeDate}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>冻结时长</label>
+                                            <input type="text" class="form-control" name="freezeLength" required value="{$data.freezeLength}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>案由</label>
+                                            <input type="text" class="form-control" name="case" required value="{$data.case}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>冻结项目</label>
+                                            <input type="text" class="form-control" name="freezeProject" required value="{$data.freezeProject}">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>申请事项</label>
+                                            <input type="text" class="form-control" name="matter" required value="{$data.matter}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label><span class="text-danger">*</span>备注</label>
+                                            <textarea type="text" class="form-control" name="remarks"
+                                                      rows="3" required>{$data.remarks}</textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">修改</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--   Core JS Files   -->
+<script src="/admin/assets/js/core/jquery.min.js"></script>
+<script src="/admin/assets/js/core/popper.min.js"></script>
+<script src="/admin/assets/js/core/bootstrap.min.js"></script>
+<script src="/admin/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+<script src="/admin/assets/js/plugins/moment.min.js"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="/admin/assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for Sweet Alert -->
+<script src="/admin/assets/js/plugins/sweetalert2.min.js"></script>
+<!-- Forms Validations Plugin -->
+<script src="/admin/assets/js/plugins/jquery.validate.min.js"></script>
+<!--  Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+<script src="/admin/assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="/admin/assets/js/plugins/bootstrap-selectpicker.js"></script>
+<!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+<script src="/admin/assets/js/plugins/bootstrap-datetimepicker.js"></script>
+<!--  DataTables.net Plugin, full documentation here: https://datatables.net/    -->
+<script src="/admin/assets/js/plugins/jquery.dataTables.min.js"></script>
+<!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+<script src="/admin/assets/js/plugins/bootstrap-tagsinput.js"></script>
+<!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+<script src="/admin/assets/js/plugins/jasny-bootstrap.min.js"></script>
+<!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+<script src="/admin/assets/js/plugins/fullcalendar.min.js"></script>
+<!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+<script src="/admin/assets/js/plugins/jquery-jvectormap.js"></script>
+<!--  Plugin for the Bootstrap Table -->
+<script src="/admin/assets/js/plugins/nouislider.min.js"></script>
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Chart JS -->
+<script src="/admin/assets/js/plugins/chartjs.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="/admin/assets/js/plugins/bootstrap-notify.js"></script>
+<!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="/admin/assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+<script src="/admin/assets/demo/demo.js"></script>
+<script>
+    $(document).ready(function () {
+        // Javascript method's body can be found in assets/js/demos.js
+        demo.initDashboardPageCharts();
+
+
+        demo.initVectorMap();
+
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+{extend name="common/layout" /}
+
+{block name="main"}
+<style>
+    .lmLeft {
+        float: left;
+        width: 158px;
+    }
+
+    .lmLeftNav {
+        min-height: 600px;
+        _height: 600px;
+        background: url(/static/images/3497870.jpg) repeat-y top;
+    }
+
+    .lmLeftBom {
+        height: 15px;
+        background: url(/static/images/3497871.jpg) no-repeat;
+    }
+
+    .lmLeftNav dl {
+        overflow: hidden;
+    }
+
+    .lmLeftNav dl dt {
+        width: 149px;
+        height: 25px;
+        line-height: 20px;
+        cursor: pointer;
+        margin-bottom: 3px;
+        background: url(/static/images/3497864.jpg) no-repeat;
+    }
+
+    .lmLeftNav dl dt b {
+        font-size: 12px;
+        color: #032A79;
+        padding-left: 30px;
+    }
+
+    /*
+    .lmLeftNav dl dd a
+    {
+        color:#434343;
+        display:block;
+        width:110px;
+        height:24px;
+        line-height:24px;
+        font-size:12px;
+        margin-bottom:3px;
+        margin-left:10px;
+        padding-left:10px;
+        border-bottom:1px #BEBEBE solid;
+        background:url(3497866.gif) no-repeat 0;
+    }
+    */
+
+    .lmLeftNav dl dd a {
+        color: #434343;
+        display: block;
+        width: 100px;
+        padding: 3px 0;
+        line-height: 20px;
+        font-size: 12px;
+        margin-bottom: 3px;
+        margin-left: 10px;
+        padding-left: 10px;
+        border-bottom: 1px #BEBEBE solid;
+        background: url(/static/images/3497866.gif) no-repeat 0;
+    }
+
+    .lmLeftNav dl dd a:hover {
+        color: #787878;
+    }
+
+    .lmRight {
+        width: 790px;
+        float: right;
+    }
+
+
+    .lmRight dl dt {
+        color: #840000;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .lmRight dl dd {
+        font-size: 12px;
+        line-height: 26px;
+    }
+
+    .lmRight dl dd span {
+        color: #032A79;
+    }
+
+    .lmRight dl dd a {
+        color: #434343;
+    }
+
+    .lmRight dl dd a:hover {
+        color: #787878;
+    }
+
+    .fpage {
+        font-size: 12px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .imgInfo {
+        top: 30px;
+        right: 60px;
+        width: 200px;
+        background: url(/static/images/3497868.gif) repeat-x;
+        border: 1px #699EC7 solid;
+    }
+
+    .imgInfo h3 {
+        color: #840000;
+        font-size: 13px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 20px;
+        background: url(/static/images/3497869.gif) no-repeat 5px center;
+    }
+
+    .imgInfo ul li {
+        float: left;
+        display: inline;
+        padding: 0 0 9px 9px;
+    }
+
+    .imgInfo ul li p {
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
+    }
+
+    .imgInfo ul li a {
+        font-size: 12px;
+        color: #434343;
+    }
+
+    .imgInfo ul li a:hover {
+        color: #787878;
+    }
+
+    .infoMore {
+        clear: both;
+        height: 30px;
+        line-height: 30px;
+        text-align: right;
+        padding: 0 20px;
+    }
+
+    .infoMore a {
+        font-size: 12px;
+        color: #032A79;
+    }
+</style>
+<div class="listMain">
+
+
+    <div class="lmLeft">
+        {include file="common/lmLeftNav"}
+        <div class="lmLeftBom"></div>
+    </div>
+
+
+    <script language="javascript">var __$nodeid = '4904351';</script>
+
+
+    <div class="lmRight relative" style="padding-right:20px">
+
+
+        <div class="" style="margin: 20px 0;">
+            <a href="/" class="xinwen-2">首页</a>&nbsp;&gt;
+            <a href="" class="xinwen-2">网上通缉</a>&nbsp;&gt;
+            <a href="#" class="xinwen-2">{$title}</a>
+        </div>
+
+        <div style="clear:both"></div>
+        <style type=text/css>.list {
+            OVERFLOW: hidden;
+            WIDTH: 800px
+        }
+
+        .item {
+            OVERFLOW: hidden;
+            BORDER-TOP: #cacaca 1px solid;
+            HEIGHT: 163px;
+            BORDER-RIGHT: #cacaca 1px solid;
+            WIDTH: 384px;
+            BORDER-BOTTOM: #cacaca 1px solid;
+            FLOAT: left;
+            MARGIN: 0px 4px 4px 0px;
+            BORDER-LEFT: #cacaca 1px solid
+        }
+
+        .item_l {
+            OVERFLOW: hidden;
+            HEIGHT: 163px;
+            BORDER-RIGHT: #cacaca 1px solid;
+            WIDTH: 95px;
+            FLOAT: left
+        }
+
+        .item_l IMG {
+            MARGIN: 5px
+        }
+
+        .item_r {
+            OVERFLOW: hidden;
+            HEIGHT: 163px;
+            WIDTH: 287px;
+            FLOAT: left
+        }
+
+        .item_r H3 {
+            OVERFLOW: hidden;
+            FONT-SIZE: 14px;
+            BACKGROUND: #e6e6e6;
+            PADDING-BOTTOM: 0px;
+            PADDING-TOP: 0px;
+            PADDING-LEFT: 5px;
+            MARGIN: 3px 3px 1px;
+            LINE-HEIGHT: 22px;
+            PADDING-RIGHT: 0px
+        }
+
+        .item_r P.title {
+            OVERFLOW: hidden;
+            FONT-SIZE: 14px;
+            BACKGROUND: #e6e6e6;
+            PADDING-BOTTOM: 0px;
+            PADDING-TOP: 0px;
+            PADDING-LEFT: 5px;
+            MARGIN: 0px 3px 1px;
+            LINE-HEIGHT: 22px;
+            PADDING-RIGHT: 0px
+        }
+
+        .item_r P.intro {
+            OVERFLOW: hidden;
+            FONT-SIZE: 14px;
+            PADDING-BOTTOM: 0px;
+            PADDING-TOP: 5px;
+            PADDING-LEFT: 5px;
+            MARGIN: 0px 3px;
+            LINE-HEIGHT: 20px;
+            PADDING-RIGHT: 0px;
+        }
+        </style>
+        {volist name="list" id="vo"}
+        <div class="item">
+            <div class="item_l">
+                <a href="{:url('article',['class'=>$vo.class,'id'=>$vo.id])}"
+                   target="_blank">
+                    <img alt="{$vo.name}" src="{$vo.photo}" width="85" height="112">
+                </a>
+            </div>
+            <div class="item_r">
+                <h3><strong>姓名:</strong>
+                    <a href="{:url('article',['class'=>$vo.class,'id'=>$vo.id])}"  style="color: blue">
+                        {$vo.name}</a><a href="{:url('article',['class'=>$vo.class,'id'=>$vo.id])}" target="_blank" style="float: right;padding-right: 5px;color: blue">[查看]</a>
+                </h3>
+                <p class="title"><strong>描述：</strong></p>
+                <p class="intro">{$vo.briefCase}</p></div>
+        </div>
+        {/volist}
+    </div>
+
+
+    <div class="clear"></div>
+</div>
+{/block}
